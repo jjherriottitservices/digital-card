@@ -215,3 +215,13 @@ section a:hover{
     }
 
 }
+
+.credential {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #555;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
