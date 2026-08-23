@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Connection Established | JJ's IT Services</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100%;
+        }
+
+        body {
+            min-height: 100vh;
+            background: #080808;
+            color: #f2f2f2;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 850px;
+            text-align: center;
+        }
+
+        .status {
+            font-family: monospace;
+            font-size: 14px;
+            letter-spacing: 3px;
+            color: #8f8f8f;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: clamp(48px, 10vw, 95px);
+            letter-spacing: 5px;
+        }
+
+        .complete {
+            margin-top: 12px;
+            font-family: monospace;
+            font-size: 18px;
+            letter-spacing: 4px;
+            color: #aaa;
+        }
+
+        .message {
+            max-width: 680px;
+            margin: 45px auto 0;
+            font-size: 19px;
+            line-height: 1.8;
+            color: #ddd;
+        }
+
+        .message strong {
+            color: #fff;
+        }
+
+        .divider {
+            width: 90px;
+            height: 2px;
+            background: #555;
+            margin: 50px auto;
+        }
+
+        .business {
+            background: #121212;
+            border: 1px solid #292929;
+            border-radius: 10px;
+            padding: 40px 35px;
+        }
+
+        .business h2 {
+            margin: 0 0 15px;
+            font-size: 32px;
+        }
+
+        .business-intro {
+            max-width: 650px;
+            margin: 0 auto 30px;
+            line-height: 1.7;
+            color: #bbb;
+            font-size: 17px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            max-width: 650px;
+            margin: 30px auto;
+            text-align: left;
+        }
+
+        .service {
+            background: #0a0a0a;
+            border: 1px solid #292929;
+            border-radius: 6px;
+            padding: 16px 18px;
+            color: #ddd;
+        }
+
+        .service::before {
+            content: "> ";
+            color: #777;
+            font-family: monospace;
+        }
+
+        .contact-text {
+            max-width: 620px;
+            margin: 35px auto 20px;
+            line-height: 1.7;
+            color: #ccc;
+        }
+
+        .facebook-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 16px 30px;
+            background: #f2f2f2;
+            color: #080808;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            border-radius: 6px;
+            transition: transform 0.15s ease, opacity 0.15s ease;
+        }
+
+        .facebook-button:hover {
+            transform: translateY(-2px);
+            opacity: 0.9;
+        }
+
+        .final-message {
+            margin-top: 45px;
+            font-family: monospace;
+            color: #666;
+            font-size: 13px;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 650px) {
+            .services {
+                grid-template-columns: 1fr;
+            }
+
+            .business {
+                padding: 30px 20px;
+            }
+
+            .message {
+                font-size: 17px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="status">
+        CONNECTION ESTABLISHED
+    </div>
+
+    <h1>SUCCESS</h1>
+
+    <div class="complete">
+        CHALLENGE COMPLETE
+    </div>
+
+    <div class="message">
+
+        If you're reading this, you found something that wasn't supposed
+        to look important, followed the trail, and made it all the way here.
+
+        <br><br>
+
+        You noticed the hidden letters.<br>
+        You figured out where they led.<br>
+        You looked beyond the image.<br>
+        And eventually, you learned to <strong>look at the sound.</strong>
+
+        <br><br>
+
+        That's it. You found the end.
+
+        <br><br>
+
+        <strong>Congratulations.</strong>
+
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="business">
+
+        <h2>JJ's IT Services</h2>
+
+        <p class="business-intro">
+            This little challenge was created by JJ's IT Services.
+            Fortunately, the technology problems I work on every day
+            usually aren't hidden behind secret messages and spectrograms.
+        </p>
+
+        <div class="services">
+
+            <div class="service">
+                Computer Troubleshooting & Repair
+            </div>
+
+            <div class="service">
+                Wi-Fi & Network Troubleshooting
+            </div>
+
+            <div class="service">
+                Security Camera Installation
+            </div>
+
+            <div class="service">
+                Computer & Device Setup
+            </div>
+
+            <div class="service">
+                Virus & Malware Cleanup
+            </div>
+
+            <div class="service">
+                Hardware Upgrades
+            </div>
+
+            <div class="service">
+                Home Technology Help
+            </div>
+
+            <div class="service">
+                Small Business IT Support
+            </div>
+
+        </div>
+
+        <p class="contact-text">
+            Need help with a real technology problem?
+            Get in touch with JJ's IT Services.
+            <br><br>
+            And if you completed this challenge, I want to hear about it.
+            Send me a message on Facebook and let me know you made it to the end!
+        </p>
+
+        <a
+            class="facebook-button"
+            href="https://www.facebook.com/JJHerriottITServices"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            I Completed the Challenge!
+        </a>
+
+    </div>
+
+    <div class="final-message">
+        END OF TRANSMISSION<br>
+        THANKS FOR PLAYING
+    </div>
+
+</div>
+
+</body>
+</html>
