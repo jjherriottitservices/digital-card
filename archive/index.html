@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Recovery Node</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">RECOVERY NODE / VOL-17</div>
+        <h1>Partial Archive Recovery</h1>
+      </div>
+      <div class="status" id="statusText">LOCAL INDEX DEGRADED</div>
+    </header>
+
+    <section id="stageMount" aria-live="polite"></section>
+
+    <footer>
+      <div>recovery-agent 3.2.8 · local session</div>
+      <button id="settingsBtn" class="linkbtn">settings</button>
+      <div id="settings" class="settings hidden">
+        <p>Progress is stored only in this browser.</p>
+        <button id="resetBtn" class="danger">clear local recovery state</button>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
