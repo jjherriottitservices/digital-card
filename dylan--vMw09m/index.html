@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Reliable home repairs in McMinnville and surrounding Middle Tennessee communities. Service available in English and Spanish.">
+    <meta name="theme-color" content="#9a4f24">
+
+    <title>Dylan's Home Repair</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f4f1ec;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .brand-mark {
+            width: 150px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            background: #9a4f24;
+            color: #fff;
+            font-size: 4rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .16);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 8px;
+            font-size: 2rem;
+        }
+
+        h2 {
+            text-align: center;
+            color: #666;
+            font-weight: normal;
+            margin-bottom: 18px;
+            font-size: 1.1rem;
+        }
+
+        .language-switcher {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 25px;
+        }
+
+        .language-switcher button {
+            border: 2px solid #9a4f24;
+            border-radius: 999px;
+            background: transparent;
+            color: #7d3f1d;
+            padding: 8px 18px;
+            font: inherit;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .language-switcher button.active,
+        .language-switcher button:hover {
+            background: #9a4f24;
+            color: white;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .buttons a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            background: #9a4f24;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: .2s;
+        }
+
+        .buttons a:hover {
+            background: #783c1c;
+            transform: translateY(-2px);
+        }
+
+        section {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+        }
+
+        section h3 {
+            margin-bottom: 15px;
+            color: #9a4f24;
+        }
+
+        section ul {
+            margin-left: 20px;
+        }
+
+        section li {
+            margin-bottom: 8px;
+        }
+
+        section p {
+            margin-bottom: 10px;
+        }
+
+        .availability {
+            text-align: center;
+            color: #666;
+            margin-top: -12px;
+            margin-bottom: 25px;
+        }
+
+        .footer {
+            text-align: center;
+            color: #666;
+            margin-top: 40px;
+            padding: 20px;
+        }
+
+        .footer a {
+            color: #9a4f24;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        html[lang="en"] [data-lang="es"],
+        html[lang="es"] [data-lang="en"] {
+            display: none;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px auto;
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 1.7rem;
+            }
+
+            h2 {
+                font-size: 1rem;
+            }
+
+            .buttons {
+                grid-template-columns: 1fr;
+            }
+
+            .brand-mark {
+                width: 125px;
+                height: 125px;
+                font-size: 3.25rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <!-- Replace this temporary icon with a logo image later, if desired. -->
+    <div class="brand-mark" aria-label="Home repair logo">🏠</div>
+
+    <!-- Replace this name after Dylan confirms the official business name. -->
+    <h1>Dylan's Home Repair</h1>
+
+    <h2 data-lang="en">Family-Owned • Reliable • Quality Work</h2>
+    <h2 data-lang="es">Negocio Familiar • Confiable • Trabajo de Calidad</h2>
+
+    <div class="language-switcher" aria-label="Choose language">
+        <button type="button" class="active" data-select-language="en">English</button>
+        <button type="button" data-select-language="es">Español</button>
+    </div>
+
+    <div class="buttons">
+        <a href="tel:+19315550000">
+            <span data-lang="en">📞 Call</span>
+            <span data-lang="es">📞 Llamar</span>
+        </a>
+
+        <a href="sms:+19315550000">
+            <span data-lang="en">💬 Text</span>
+            <span data-lang="es">💬 Mensaje</span>
+        </a>
+
+        <a href="contact-card.vcf" download>
+            <span data-lang="en">👤 Save Contact</span>
+            <span data-lang="es">👤 Guardar Contacto</span>
+        </a>
+
+        <!-- Replace this placeholder with Dylan's actual Facebook page URL. -->
+        <a href="https://www.facebook.com/dylanshomerepair" target="_blank" rel="noopener noreferrer">
+            <span data-lang="en">📘 Facebook</span>
+            <span data-lang="es">📘 Facebook</span>
+        </a>
+    </div>
+
+    <p class="availability">
+        <span data-lang="en">Service available in English and Spanish</span>
+        <span data-lang="es">Servicio disponible en inglés y español</span>
+    </p>
+
+    <section>
+        <h3 data-lang="en">Hours</h3>
+        <h3 data-lang="es">Horario</h3>
+
+        <p>
+            <strong data-lang="en">Monday – Friday</strong>
+            <strong data-lang="es">Lunes – Viernes</strong><br>
+            8:00 AM – 5:00 PM
+        </p>
+
+        <p>
+            <strong data-lang="en">Saturday – Sunday</strong>
+            <strong data-lang="es">Sábado – Domingo</strong><br>
+            <span data-lang="en">Closed</span>
+            <span data-lang="es">Cerrado</span>
+        </p>
+    </section>
+
+    <section>
+        <h3 data-lang="en">Home Repair Services</h3>
+        <h3 data-lang="es">Servicios de Reparación del Hogar</h3>
+
+        <ul data-lang="en">
+            <li>Roof Repairs</li>
+            <li>Drywall Installation &amp; Repair</li>
+            <li>Plumbing Repairs</li>
+            <li>Minor Electrical Repairs &amp; Fixture Replacement</li>
+            <li>Interior &amp; Exterior Painting</li>
+            <li>Flooring Installation &amp; Repair</li>
+            <li>Carpentry &amp; Trim Work</li>
+            <li>Doors, Windows &amp; Siding</li>
+            <li>Deck &amp; Porch Repairs</li>
+            <li>Gutter Repair &amp; Cleaning</li>
+            <li>Pressure Washing</li>
+            <li>General Home Maintenance &amp; Repairs</li>
+        </ul>
+
+        <ul data-lang="es">
+            <li>Reparación de Techos</li>
+            <li>Instalación y Reparación de Paneles de Yeso</li>
+            <li>Reparaciones de Plomería</li>
+            <li>Reparaciones Eléctricas Menores y Reemplazo de Accesorios</li>
+            <li>Pintura Interior y Exterior</li>
+            <li>Instalación y Reparación de Pisos</li>
+            <li>Carpintería y Molduras</li>
+            <li>Puertas, Ventanas y Revestimiento Exterior</li>
+            <li>Reparación de Terrazas y Porches</li>
+            <li>Reparación y Limpieza de Canaletas</li>
+            <li>Lavado a Presión</li>
+            <li>Mantenimiento y Reparaciones Generales del Hogar</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3 data-lang="en">Service Areas</h3>
+        <h3 data-lang="es">Áreas de Servicio</h3>
+
+        <ul>
+            <li>Smithville</li>
+            <li>McMinnville</li>
+            <li>Sparta</li>
+            <li>Cookeville</li>
+            <li>Crossville</li>
+            <li>Woodbury</li>
+            <li data-lang="en">Surrounding Middle Tennessee Communities</li>
+            <li data-lang="es">Comunidades Cercanas del Centro de Tennessee</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <p data-lang="en">Call or text during business hours to discuss your project.</p>
+        <p data-lang="es">Llame o envíe un mensaje durante el horario de atención para hablar sobre su proyecto.</p>
+
+        <br>
+
+        <small>
+            <span data-lang="en">Want a digital business card like this?</span>
+            <span data-lang="es">¿Quiere una tarjeta de presentación digital como esta?</span>
+            <br>
+            <a href="https://jjsitservices.com/?customer=dylan-home-repair" target="_blank" rel="noopener noreferrer">
+                <span data-lang="en">Get your own digital business card.</span>
+                <span data-lang="es">Obtenga su propia tarjeta de presentación digital.</span>
+            </a>
+        </small>
+    </footer>
+</div>
+
+<script>
+    const languageButtons = document.querySelectorAll('[data-select-language]');
+
+    function setLanguage(language) {
+        document.documentElement.lang = language;
+
+        languageButtons.forEach((button) => {
+            const isActive = button.dataset.selectLanguage === language;
+            button.classList.toggle('active', isActive);
+            button.setAttribute('aria-pressed', String(isActive));
+        });
+    }
+
+    languageButtons.forEach((button) => {
+        button.addEventListener('click', () => setLanguage(button.dataset.selectLanguage));
+    });
+
+    setLanguage('en');
+</script>
+</body>
+</html>
+
