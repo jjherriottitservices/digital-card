@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Herriott;JJ;;;
+FN:JJ Herriott
+ORG:Middle Tennessee Natural Gas Utility District
+TITLE:System Administrator
+TEL;TYPE=CELL,WORK,VOICE:+16155809031
+EMAIL;TYPE=INTERNET,WORK:jherriott@mtng.com
+ADR;TYPE=WORK:;;1030 West Broad St.;Smithville;TN;37166;USA
+URL:https://www.mtng.com
+NOTE:Office Hours: Monday - Friday\, 8:00 AM - 5:00 PM CST
+END:VCARD
