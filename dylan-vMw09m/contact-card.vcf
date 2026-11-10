@@ -1,8 +1,11 @@
 BEGIN:VCARD
 VERSION:3.0
-FN:Dylan
-ORG:Dylan's Home Repair
+N:Hernandez;Dylan;;;
+FN:Dylan Hernandez
+ORG:Hernandez Construction
 TEL;TYPE=CELL,VOICE:+19314143391
-URL;TYPE=Facebook:https://www.facebook.com/dylanshomerepair
-NOTE:Home repair services available in English and Spanish.
+NOTE:Remodeling\, framing\, drywall\, roofing\, fencing\, and general const
+ ruction. Service available in English and Spanish.\nRemodelaciones\, estru
+ cturas de madera\, paneles de yeso\, techos\, cercas y construcción gener
+ al. Servicio disponible en inglés y español.
 END:VCARD
